@@ -1,16 +1,84 @@
 body {
     margin: 0;
-    padding: o;
+    padding: 0;
+    background-color: #f5f6f7;
 }
 
 /* header */
 
 header {
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 94, 246);
     box-sizing: border-box;
+    padding: 25px 105px 0;
+}
+
+.logo {
+    line-height: 4px;
+}
+
+.title {
+    text-decoration: underline 1px;
+    font-size: 40px;
+}
+
+.sub-title {
+    font-size: 1.3em;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 165px;
+    background-color: #f5f6f7;
+}
+
+input:focus {
+    outline: none; /* Remove the outline/border */
+}
+
+
+::placeholder {
+    color: black;
+    font-size: 13px;
+}
+
+.search-icon {
+    font-size: 13px;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+    header {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 25px 0 0 0;
+        background-color: #f5f6f7;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 1.2em;
+    }
+
+    input {
+        font-size: 10px;
+        width: 127px;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+    .search-icon {
+        font-size: 10px;
+    }
 }
