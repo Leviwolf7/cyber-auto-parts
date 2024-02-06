@@ -1,7 +1,8 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
-    background-color: #f5f6f7;
+    height: 100%;
+    background-color: #000000;
 }
 
 /* header */
@@ -13,27 +14,29 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 25px 105px 0;
+    padding: 25px 105px;
 }
 
 .logo {
-    line-height: 4px;
+    line-height: 3px;
+    color: #cb53c2;
 }
 
 .title {
-    text-decoration: underline 1px;
+    text-decoration: underline 1px #05fe06;
     font-size: 40px;
 }
 
 .sub-title {
-    font-size: 1.3em;
+    font-size: 20px;
+    color: #cb53c2;
 }
 
 input {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #05fe06;
     width: 165px;
-    background-color: #f5f6f7;
+    background-color: transparent;
 }
 
 input:focus {
@@ -42,12 +45,26 @@ input:focus {
 
 
 ::placeholder {
-    color: black;
+    color: #cb53c2;
     font-size: 13px;
 }
 
 .search-icon {
     font-size: 13px;
+    color: #05fe06;
+}
+
+/*Web description*/
+.description-container {
+    color: #cb53c2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 55px;
+}
+
+.description {
+color: #cb53c2;
+font-size: 15px;
 }
 
 /* Responsive */
@@ -58,11 +75,11 @@ input:focus {
         flex-direction: column;
         margin: 0;
         padding: 25px 0 0 0;
-        background-color: #f5f6f7;
     }
 
     .title {
         font-size: 30px;
+        text-decoration: none;
     }
 
     .sub-title {
