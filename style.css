@@ -118,12 +118,16 @@ input:focus {
 
 .social-media-icons a {
     color: #cb53c2;
-    font-size: 20px;
     border: 2px solid #cb53c2;
     border-radius: 50%;
     padding: 10px;
     transition: all 0.2s ease-in;
     margin: 10px;
+}
+
+.social-media-icons i {
+    font-size: 20px;
+    padding: 2px;
 }
 
 .social-media-icons a:hover {
