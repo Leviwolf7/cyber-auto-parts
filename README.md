@@ -4,7 +4,6 @@
 
 <br>
 <br>
-<br>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/208fc779-13a8-4a2c-b79e-272d415c9dcf">
